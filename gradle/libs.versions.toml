@@ -1,0 +1,7 @@
+[versions]
+komapper = "5.5.0"
+springBoot = "3.5.5"
+
+[libraries]
+komapper-platform = { group = "org.komapper", name = "komapper-platform", version.ref = "komapper"}
+spring-dependencies = { group = "org.springframework.boot", name = "spring-boot-dependencies", version.ref = "springBoot"}
